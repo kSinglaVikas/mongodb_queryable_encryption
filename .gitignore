@@ -1,0 +1,21 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local encryption key material
+keys/*.bin
+
+# Tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.DS_Store
